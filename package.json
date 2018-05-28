@@ -1,0 +1,34 @@
+{
+  "name": "sails-postgres-debug",
+  "version": "0.0.1",
+  "description": "Hook for pretty printing postgres queries",
+  "repository": "https://github.com/spaceship-labs/sails-postgres-debug",
+  "author": "Spaceship Labs",
+  "engines": {
+    "node": ">=8.9",
+    "yarn": ">=1.7"
+  },
+  "sails": {
+    "isHook": true
+  },
+  "scripts": {
+    "lint": "eslint --fix ."
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.1.2",
+    "prettier": "^1.13.0"
+  },
+  "dependencies": {
+    "pg-debug": "https://github.com/spaceship-labs/pg-debug"
+  }
+}
