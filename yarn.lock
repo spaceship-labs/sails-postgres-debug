@@ -1917,7 +1917,7 @@ performance-now@^2.1.0:
 
 "pg-debug@https://github.com/spaceship-labs/pg-debug":
   version "0.0.1"
-  resolved "https://github.com/spaceship-labs/pg-debug#d989a70b892907a71b6ba39f72417246dda86672"
+  resolved "https://github.com/spaceship-labs/pg-debug#9de9407444942e90b43ff01eee8267bb0f2f901a"
   dependencies:
     chalk "^2.4.1"
 
